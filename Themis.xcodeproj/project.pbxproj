@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F53445E996EDF4A7C19472C /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89A445CD083EB80FC535FD /* Dates.swift */; };
+		F0B734C9A60FF878306C43FB /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8AABEDD6C594566E561216 /* Stats.swift */; };
+		EA976A8EC0E09C39D89BE61C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BF93E484762024CCD2185 /* Theme.swift */; };
+		EE10552E4F995F80A2716C7D /* MeditationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2BB0D9E8C940F4902C62C /* MeditationModel.swift */; };
+		3B27A56E6BE17FE1732830BE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F025E96029E0804E635 /* Models.swift */; };
+		5B0E909EACE1CB32DE046B30 /* WaterReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01B5B267F13500CB3494F4 /* WaterReminder.swift */; };
+		0C66B956E2F6B5D71F9DD6FE /* ambient_brown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3513E65C268070431B4CF544 /* ambient_brown.wav */; };
+		2E1D5752E905F88B7B6D010A /* ambient_pad.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6E5C0F3A4BAD4BA21448D95 /* ambient_pad.wav */; };
+		705E97BAFAA766B3C89C659A /* ambient_rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 206390997C27E00F19D8B273 /* ambient_rain.wav */; };
+		03351B8B02F14C5369D3E7AD /* ambient_white.wav in Resources */ = {isa = PBXBuildFile; fileRef = F31369FC452BF4D6113CCDCF /* ambient_white.wav */; };
+		CFB5FD3DA8F6D14978551FCE /* chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9ECF543AC358FF6E75A9FBE1 /* chime.wav */; };
+		5DDBF56ADE2A3FA417AF0D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC13B5EC966CE305A2FA173A /* Assets.xcassets */; };
+		B4CFD4E1DA318F731B977374 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19E2393139C279861C4F0C /* AppStore.swift */; };
+		126B58CDF8BA20DD799DEA1F /* StrengthEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531B28141EC4F176C1A20B0 /* StrengthEngine.swift */; };
+		1175096C933CF006475AC1DE /* Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276979D1676004EC4E4BCEE3 /* Discovery.swift */; };
+		030C1713F2BFD653987D63B1 /* QuoteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59709E8C23DFBC934A8BF70 /* QuoteClient.swift */; };
+		E22A2BB40079F715373F5FAB /* SyncEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C5F3C5BCEED529BBDE732 /* SyncEngine.swift */; };
+		FB65298FB7D6A0FE1EC335A8 /* SyncModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27245EF6FBDB71590746402 /* SyncModels.swift */; };
+		9A656FD45672890249061789 /* DouglasPeucker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595B4987F877125DEBB75D8 /* DouglasPeucker.swift */; };
+		060BB5E060B747FA91311FDD /* KalmanLocationFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F90FE56D31E09C7BBE5727 /* KalmanLocationFilter.swift */; };
+		604E701BFFF2F47DC1A90F8E /* TrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096E3D5CDBC2B731B17CBBF /* TrackingManager.swift */; };
+		114B5690532D92711FAC507B /* TrackingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9A2B76D1CF9CEB96FAF02 /* TrackingModels.swift */; };
+		F17D8BA63A8A02CA26B8A292 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5672CB67F4902CB21DE8027 /* ActivityView.swift */; };
+		13DBE651324FA6C73D736FB2 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2DAD65BF80CE0F6EA830D /* DashboardView.swift */; };
+		F8E4DEBB0175957AB92B3DCB /* MeditationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C930A6F92D6B07480573CEF /* MeditationViews.swift */; };
+		9BEAE0A5B918BBB0DC9A7450 /* RankShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20F7CC274A6B515550F686 /* RankShareView.swift */; };
+		162D836C7C50E6AD190F4643 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657EE23CC8EEB739B6ECF6F /* RootView.swift */; };
+		992B09E1C6AEF129B5F7758C /* StrengthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0EB3EECE06143F53AF443 /* StrengthViews.swift */; };
+		611149735EBFCDFC87F7E94D /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210EB0296E1E9555AA5F2217 /* TasksView.swift */; };
+		8A74620BC507B1E29F40F5F8 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FF00AE22652BB3E7BD9A2 /* WeightView.swift */; };
+		4468405B7F28B06844C79C78 /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A221E8274A57E283EA828C /* WorkoutSummaryView.swift */; };
+		D9E0D61EF764C0B0A8D73093 /* ThemisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF7114B829BB93EF79F017 /* ThemisApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2A57DC1D883FD21FB995169 /* Themis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Themis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED89A445CD083EB80FC535FD /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		FB8AABEDD6C594566E561216 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		214BF93E484762024CCD2185 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DCE2BB0D9E8C940F4902C62C /* MeditationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationModel.swift; sourceTree = "<group>"; };
+		A7589F025E96029E0804E635 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CA01B5B267F13500CB3494F4 /* WaterReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminder.swift; sourceTree = "<group>"; };
+		3513E65C268070431B4CF544 /* ambient_brown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ambient_brown.wav; sourceTree = "<group>"; };
+		F6E5C0F3A4BAD4BA21448D95 /* ambient_pad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ambient_pad.wav; sourceTree = "<group>"; };
+		206390997C27E00F19D8B273 /* ambient_rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ambient_rain.wav; sourceTree = "<group>"; };
+		F31369FC452BF4D6113CCDCF /* ambient_white.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ambient_white.wav; sourceTree = "<group>"; };
+		9ECF543AC358FF6E75A9FBE1 /* chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chime.wav; sourceTree = "<group>"; };
+		AC13B5EC966CE305A2FA173A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD19E2393139C279861C4F0C /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		E531B28141EC4F176C1A20B0 /* StrengthEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthEngine.swift; sourceTree = "<group>"; };
+		276979D1676004EC4E4BCEE3 /* Discovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discovery.swift; sourceTree = "<group>"; };
+		F59709E8C23DFBC934A8BF70 /* QuoteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteClient.swift; sourceTree = "<group>"; };
+		479C5F3C5BCEED529BBDE732 /* SyncEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncEngine.swift; sourceTree = "<group>"; };
+		B27245EF6FBDB71590746402 /* SyncModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncModels.swift; sourceTree = "<group>"; };
+		4595B4987F877125DEBB75D8 /* DouglasPeucker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouglasPeucker.swift; sourceTree = "<group>"; };
+		E6F90FE56D31E09C7BBE5727 /* KalmanLocationFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmanLocationFilter.swift; sourceTree = "<group>"; };
+		F096E3D5CDBC2B731B17CBBF /* TrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingManager.swift; sourceTree = "<group>"; };
+		5CE9A2B76D1CF9CEB96FAF02 /* TrackingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingModels.swift; sourceTree = "<group>"; };
+		F5672CB67F4902CB21DE8027 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		8ED2DAD65BF80CE0F6EA830D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		7C930A6F92D6B07480573CEF /* MeditationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViews.swift; sourceTree = "<group>"; };
+		7A20F7CC274A6B515550F686 /* RankShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankShareView.swift; sourceTree = "<group>"; };
+		7657EE23CC8EEB739B6ECF6F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1FD0EB3EECE06143F53AF443 /* StrengthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthViews.swift; sourceTree = "<group>"; };
+		210EB0296E1E9555AA5F2217 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		1E1FF00AE22652BB3E7BD9A2 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
+		F7A221E8274A57E283EA828C /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
+		770C5B730A8FBE3C009C5372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDF7114B829BB93EF79F017 /* ThemisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemisApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF658E5B13454B892B110892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				ECC8D8653CC19ACF4BECB251 /* Themis */,
+				86024CAD1E83101D97359D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A57DC1D883FD21FB995169 /* Themis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D315DEBBF45F223B169A61 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED89A445CD083EB80FC535FD /* Dates.swift */,
+				FB8AABEDD6C594566E561216 /* Stats.swift */,
+				214BF93E484762024CCD2185 /* Theme.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E113793E25E0E2009ED03DC8 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				DCE2BB0D9E8C940F4902C62C /* MeditationModel.swift */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		A1C86A29E589D48EC70B6A32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7589F025E96029E0804E635 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01D30BBCA8D4086D8845CBE9 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				CA01B5B267F13500CB3494F4 /* WaterReminder.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		82BEF7B719CCDD6B1031C4D2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3513E65C268070431B4CF544 /* ambient_brown.wav */,
+				F6E5C0F3A4BAD4BA21448D95 /* ambient_pad.wav */,
+				206390997C27E00F19D8B273 /* ambient_rain.wav */,
+				F31369FC452BF4D6113CCDCF /* ambient_white.wav */,
+				9ECF543AC358FF6E75A9FBE1 /* chime.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		887A6F90336FF23D95C3914B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82BEF7B719CCDD6B1031C4D2 /* Audio */,
+				AC13B5EC966CE305A2FA173A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84CF25C76D64DAA0B536E4A0 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				FD19E2393139C279861C4F0C /* AppStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		F3F5A71443DA3D9E3A12E7DC /* Strength */ = {
+			isa = PBXGroup;
+			children = (
+				E531B28141EC4F176C1A20B0 /* StrengthEngine.swift */,
+			);
+			path = Strength;
+			sourceTree = "<group>";
+		};
+		A048B451618A9126A5DFC705 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				276979D1676004EC4E4BCEE3 /* Discovery.swift */,
+				F59709E8C23DFBC934A8BF70 /* QuoteClient.swift */,
+				479C5F3C5BCEED529BBDE732 /* SyncEngine.swift */,
+				B27245EF6FBDB71590746402 /* SyncModels.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		DA7255AF16C89488707618E1 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				4595B4987F877125DEBB75D8 /* DouglasPeucker.swift */,
+				E6F90FE56D31E09C7BBE5727 /* KalmanLocationFilter.swift */,
+				F096E3D5CDBC2B731B17CBBF /* TrackingManager.swift */,
+				5CE9A2B76D1CF9CEB96FAF02 /* TrackingModels.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		38DF21AEF4612506D6BE5CBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5672CB67F4902CB21DE8027 /* ActivityView.swift */,
+				8ED2DAD65BF80CE0F6EA830D /* DashboardView.swift */,
+				7C930A6F92D6B07480573CEF /* MeditationViews.swift */,
+				7A20F7CC274A6B515550F686 /* RankShareView.swift */,
+				7657EE23CC8EEB739B6ECF6F /* RootView.swift */,
+				1FD0EB3EECE06143F53AF443 /* StrengthViews.swift */,
+				210EB0296E1E9555AA5F2217 /* TasksView.swift */,
+				1E1FF00AE22652BB3E7BD9A2 /* WeightView.swift */,
+				F7A221E8274A57E283EA828C /* WorkoutSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECC8D8653CC19ACF4BECB251 /* Themis */ = {
+			isa = PBXGroup;
+			children = (
+				35D315DEBBF45F223B169A61 /* Core */,
+				E113793E25E0E2009ED03DC8 /* Meditation */,
+				A1C86A29E589D48EC70B6A32 /* Models */,
+				01D30BBCA8D4086D8845CBE9 /* Reminder */,
+				887A6F90336FF23D95C3914B /* Resources */,
+				84CF25C76D64DAA0B536E4A0 /* Store */,
+				F3F5A71443DA3D9E3A12E7DC /* Strength */,
+				A048B451618A9126A5DFC705 /* Sync */,
+				DA7255AF16C89488707618E1 /* Tracking */,
+				38DF21AEF4612506D6BE5CBE /* Views */,
+				770C5B730A8FBE3C009C5372 /* Info.plist */,
+				DBDF7114B829BB93EF79F017 /* ThemisApp.swift */,
+			);
+			path = Themis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Themis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5B959833E219C36151D647;
+			buildPhases = (
+				0F78FE532035D122ED352DBA /* Sources */,
+				EF658E5B13454B892B110892 /* Frameworks */,
+				943E4BBD9B51C81965501BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Themis;
+			productName = Themis;
+			productReference = D2A57DC1D883FD21FB995169 /* Themis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC844ABCCFC0D132D087C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2CA666E9AB7FD185F98B8152;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Themis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943E4BBD9B51C81965501BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C66B956E2F6B5D71F9DD6FE /* ambient_brown.wav in Resources */,
+				2E1D5752E905F88B7B6D010A /* ambient_pad.wav in Resources */,
+				705E97BAFAA766B3C89C659A /* ambient_rain.wav in Resources */,
+				03351B8B02F14C5369D3E7AD /* ambient_white.wav in Resources */,
+				CFB5FD3DA8F6D14978551FCE /* chime.wav in Resources */,
+				5DDBF56ADE2A3FA417AF0D28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F78FE532035D122ED352DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F53445E996EDF4A7C19472C /* Dates.swift in Sources */,
+				F0B734C9A60FF878306C43FB /* Stats.swift in Sources */,
+				EA976A8EC0E09C39D89BE61C /* Theme.swift in Sources */,
+				EE10552E4F995F80A2716C7D /* MeditationModel.swift in Sources */,
+				3B27A56E6BE17FE1732830BE /* Models.swift in Sources */,
+				5B0E909EACE1CB32DE046B30 /* WaterReminder.swift in Sources */,
+				B4CFD4E1DA318F731B977374 /* AppStore.swift in Sources */,
+				126B58CDF8BA20DD799DEA1F /* StrengthEngine.swift in Sources */,
+				1175096C933CF006475AC1DE /* Discovery.swift in Sources */,
+				030C1713F2BFD653987D63B1 /* QuoteClient.swift in Sources */,
+				E22A2BB40079F715373F5FAB /* SyncEngine.swift in Sources */,
+				FB65298FB7D6A0FE1EC335A8 /* SyncModels.swift in Sources */,
+				9A656FD45672890249061789 /* DouglasPeucker.swift in Sources */,
+				060BB5E060B747FA91311FDD /* KalmanLocationFilter.swift in Sources */,
+				604E701BFFF2F47DC1A90F8E /* TrackingManager.swift in Sources */,
+				114B5690532D92711FAC507B /* TrackingModels.swift in Sources */,
+				F17D8BA63A8A02CA26B8A292 /* ActivityView.swift in Sources */,
+				13DBE651324FA6C73D736FB2 /* DashboardView.swift in Sources */,
+				F8E4DEBB0175957AB92B3DCB /* MeditationViews.swift in Sources */,
+				9BEAE0A5B918BBB0DC9A7450 /* RankShareView.swift in Sources */,
+				162D836C7C50E6AD190F4643 /* RootView.swift in Sources */,
+				992B09E1C6AEF129B5F7758C /* StrengthViews.swift in Sources */,
+				611149735EBFCDFC87F7E94D /* TasksView.swift in Sources */,
+				8A74620BC507B1E29F40F5F8 /* WeightView.swift in Sources */,
+				4468405B7F28B06844C79C78 /* WorkoutSummaryView.swift in Sources */,
+				D9E0D61EF764C0B0A8D73093 /* ThemisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D53B50AE2273FABAAF8B8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B2141B77146EF47E948847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7C752E798F561D7D156D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Themis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themis.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22F75101C717335ACF4089A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Themis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themis.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA666E9AB7FD185F98B8152 /* Build configuration list for PBXProject "Themis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D53B50AE2273FABAAF8B8FA /* Debug */,
+				D4B2141B77146EF47E948847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5B959833E219C36151D647 /* Build configuration list for PBXNativeTarget "Themis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C752E798F561D7D156D98 /* Debug */,
+				22F75101C717335ACF4089A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC844ABCCFC0D132D087C1C /* Project object */;
+}

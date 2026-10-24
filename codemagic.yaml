@@ -1,0 +1,43 @@
+workflows:
+  themis-ios-test:
+    name: Themis iOS (unsigned simulator build)
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    environment:
+      xcode: latest
+    scripts:
+      - name: Build for iOS Simulator (no code signing needed)
+        script: |
+          xcodebuild build \
+            -project Themis.xcodeproj \
+            -scheme Themis \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Package the .app
+        script: |
+          mkdir -p artifacts
+          cd build/Build/Products/Debug-iphonesimulator
+          zip -r "$CM_BUILD_DIR/artifacts/Themis-simulator.app.zip" Themis.app
+    artifacts:
+      - artifacts/*.zip
+
+  themis-ios-device:
+    name: Themis iOS (signed .ipa for a real iPhone)
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    environment:
+      xcode: latest
+      ios_signing:
+        distribution_type: development      # or ad_hoc
+        bundle_identifier: com.themis.mobile
+    scripts:
+      - name: Apply signing profile
+        script: xcode-project use-profiles
+      - name: Build .ipa
+        script: |
+          xcode-project build-ipa --project Themis.xcodeproj --scheme Themis
+    artifacts:
+      - build/ios/ipa/*.ipa
